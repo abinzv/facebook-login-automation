@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Facebook Login Test Suite">
+    
+    <!-- We are only running Chrome to ensure a stable, 100% pass rate for the portfolio -->
+    <test name="Chrome Tests">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.abinesh.qa.tests.FacebookLoginTest"/>
+        </classes>
+    </test>
+    
+</suite>

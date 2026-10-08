@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="34.455" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\facebook-login-automation\target\test-classes;C:\facebook-login-automation\target\classes;C:\Users\Deepi\.m2\repository\org\seleniumhq\selenium\selenium-java\4.50.0\selenium-java-4.50.0.jar;C:\Users\Deepi\.m2\repository\org\seleniumhq\selenium\selenium-api\4.50.0\selenium-api-4.50.0.jar;C:\Users\Deepi\.m2\repository\org\jspecify\jspecify\1.0.1\jspecify-1.0.1.jar;C:\Users\Deepi\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.50.0\selenium-chrome-driver-4.50.0.jar;C:\Users\Deepi\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Deepi\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.50.0\selenium-chromium-driver-4.50.0.jar;C:\Users\Deepi\.m2\repository\org\seleniumhq\selenium\selenium-json\4.50.0\selenium-json-4.50.0.jar;C:\Users\Deepi\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.50.0\selenium-manager-4.50.0.jar;C:\Users\Deepi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-latest\4.50.0\selenium-devtools-latest-4.50.0.jar;C:\Users\Deepi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v152\4.50.0\selenium-devtools-v152-4.50.0.jar;C:\Users\Deepi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v153\4.50.0\selenium-devtools-v153-4.50.0.jar;C:\Users\Deepi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v154\4.50.0\selenium-devtools-v154-4.50.0.jar;C:\Users\Deepi\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.50.0\selenium-edge-driver-4.50.0.jar;C:\Users\Deepi\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.50.0\selenium-firefox-driver-4.50.0.jar;C:\Users\Deepi\.m2\repository\org\seleniumhq\selenium\selenium-http\4.50.0\selenium-http-4.50.0.jar;C:\Users\Deepi\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.50.0\selenium-ie-driver-4.50.0.jar;C:\Users\Deepi\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.50.0\selenium-remote-driver-4.50.0.jar;C:\Users\Deepi\.m2\repository\com\google\guava\guava\33.7.1-jre\guava-33.7.1-jre.jar;C:\Users\Deepi\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Deepi\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Deepi\.m2\repository\com\google\errorprone\error_prone_annotations\2.50.0\error_prone_annotations-2.50.0.jar;C:\Users\Deepi\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\Deepi\.m2\repository\io\opentelemetry\opentelemetry-api\1.66.0\opentelemetry-api-1.66.0.jar;C:\Users\Deepi\.m2\repository\io\opentelemetry\opentelemetry-context\1.66.0\opentelemetry-context-1.66.0.jar;C:\Users\Deepi\.m2\repository\io\opentelemetry\opentelemetry-common\1.66.0\opentelemetry-common-1.66.0.jar;C:\Users\Deepi\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.66.0\opentelemetry-exporter-logging-1.66.0.jar;C:\Users\Deepi\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.66.0\opentelemetry-sdk-common-1.66.0.jar;C:\Users\Deepi\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.66.0\opentelemetry-sdk-extension-autoconfigure-spi-1.66.0.jar;C:\Users\Deepi\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.66.0\opentelemetry-sdk-extension-autoconfigure-1.66.0.jar;C:\Users\Deepi\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.66.0\opentelemetry-sdk-trace-1.66.0.jar;C:\Users\Deepi\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.66.0\opentelemetry-sdk-1.66.0.jar;C:\Users\Deepi\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.66.0\opentelemetry-sdk-metrics-1.66.0.jar;C:\Users\Deepi\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.66.0\opentelemetry-sdk-logs-1.66.0.jar;C:\Users\Deepi\.m2\repository\net\bytebuddy\byte-buddy\1.18.14\byte-buddy-1.18.14.jar;C:\Users\Deepi\.m2\repository\org\seleniumhq\selenium\selenium-os\4.50.0\selenium-os-4.50.0.jar;C:\Users\Deepi\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.50.0\selenium-safari-driver-4.50.0.jar;C:\Users\Deepi\.m2\repository\org\seleniumhq\selenium\selenium-support\4.50.0\selenium-support-4.50.0.jar;C:\Users\Deepi\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\Deepi\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Deepi\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Deepi\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
+    <property name="sun.java.command" value="C:\Users\Deepi\AppData\Local\Temp\surefire4744287664991100919\surefirebooter-20261008123645274_3.jar C:\Users\Deepi\AppData\Local\Temp\surefire4744287664991100919 2026-10-08T12-36-45_114-jvmRun1 surefire-20261008123645274_1tmp surefire_0-20261008123645274_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\facebook-login-automation\target\test-classes;C:\facebook-login-automation\target\classes;C:\Users\Deepi\.m2\repository\org\seleniumhq\selenium\selenium-java\4.50.0\selenium-java-4.50.0.jar;C:\Users\Deepi\.m2\repository\org\seleniumhq\selenium\selenium-api\4.50.0\selenium-api-4.50.0.jar;C:\Users\Deepi\.m2\repository\org\jspecify\jspecify\1.0.1\jspecify-1.0.1.jar;C:\Users\Deepi\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.50.0\selenium-chrome-driver-4.50.0.jar;C:\Users\Deepi\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Deepi\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.50.0\selenium-chromium-driver-4.50.0.jar;C:\Users\Deepi\.m2\repository\org\seleniumhq\selenium\selenium-json\4.50.0\selenium-json-4.50.0.jar;C:\Users\Deepi\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.50.0\selenium-manager-4.50.0.jar;C:\Users\Deepi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-latest\4.50.0\selenium-devtools-latest-4.50.0.jar;C:\Users\Deepi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v152\4.50.0\selenium-devtools-v152-4.50.0.jar;C:\Users\Deepi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v153\4.50.0\selenium-devtools-v153-4.50.0.jar;C:\Users\Deepi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v154\4.50.0\selenium-devtools-v154-4.50.0.jar;C:\Users\Deepi\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.50.0\selenium-edge-driver-4.50.0.jar;C:\Users\Deepi\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.50.0\selenium-firefox-driver-4.50.0.jar;C:\Users\Deepi\.m2\repository\org\seleniumhq\selenium\selenium-http\4.50.0\selenium-http-4.50.0.jar;C:\Users\Deepi\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.50.0\selenium-ie-driver-4.50.0.jar;C:\Users\Deepi\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.50.0\selenium-remote-driver-4.50.0.jar;C:\Users\Deepi\.m2\repository\com\google\guava\guava\33.7.1-jre\guava-33.7.1-jre.jar;C:\Users\Deepi\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Deepi\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Deepi\.m2\repository\com\google\errorprone\error_prone_annotations\2.50.0\error_prone_annotations-2.50.0.jar;C:\Users\Deepi\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\Deepi\.m2\repository\io\opentelemetry\opentelemetry-api\1.66.0\opentelemetry-api-1.66.0.jar;C:\Users\Deepi\.m2\repository\io\opentelemetry\opentelemetry-context\1.66.0\opentelemetry-context-1.66.0.jar;C:\Users\Deepi\.m2\repository\io\opentelemetry\opentelemetry-common\1.66.0\opentelemetry-common-1.66.0.jar;C:\Users\Deepi\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.66.0\opentelemetry-exporter-logging-1.66.0.jar;C:\Users\Deepi\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.66.0\opentelemetry-sdk-common-1.66.0.jar;C:\Users\Deepi\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.66.0\opentelemetry-sdk-extension-autoconfigure-spi-1.66.0.jar;C:\Users\Deepi\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.66.0\opentelemetry-sdk-extension-autoconfigure-1.66.0.jar;C:\Users\Deepi\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.66.0\opentelemetry-sdk-trace-1.66.0.jar;C:\Users\Deepi\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.66.0\opentelemetry-sdk-1.66.0.jar;C:\Users\Deepi\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.66.0\opentelemetry-sdk-metrics-1.66.0.jar;C:\Users\Deepi\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.66.0\opentelemetry-sdk-logs-1.66.0.jar;C:\Users\Deepi\.m2\repository\net\bytebuddy\byte-buddy\1.18.14\byte-buddy-1.18.14.jar;C:\Users\Deepi\.m2\repository\org\seleniumhq\selenium\selenium-os\4.50.0\selenium-os-4.50.0.jar;C:\Users\Deepi\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.50.0\selenium-safari-driver-4.50.0.jar;C:\Users\Deepi\.m2\repository\org\seleniumhq\selenium\selenium-support\4.50.0\selenium-support-4.50.0.jar;C:\Users\Deepi\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\Deepi\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Deepi\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Deepi\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Deepi"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-25"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\facebook-login-automation"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Deepi\AppData\Local\Temp\surefire4744287664991100919\surefirebooter-20261008123645274_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25.0.1+8-LTS-27"/>
+    <property name="user.name" value="Deepi"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Deepi\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Deepi\AppData\Local\Temp\"/>
+    <property name="java.version" value="25.0.1"/>
+    <property name="user.dir" value="C:\facebook-login-automation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-25\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\Deepi\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\Deepi\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Python314\Scripts\;C:\Python314\;C:\Program Files\Common Files\Oracle\Java\javapath;D:\oracle\product\10.2.0\db_3\bin;D:\oracle\product\10.2.0\db_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Program Files\dotnet\;C:\Users\Deepi\.vscode\extensions\vscjava.vscode-maven-0.45.3\resources\maven-wrapper\mvnw\cmd;C:\maven\apache-maven-3.9.9\bin;C:\maven\apache-maven-3.9.16\bin;C:\maven\apache-maven-3.9.16\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\Deepi\.local\bin;C:\Users\Deepi\AppData\Local\Microsoft\WindowsApps;C:\Users\Deepi\AppData\Local\GitHubDesktop\bin;C:\Users\Deepi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Deepi\AppData\Roaming\npm;C:\Users\Deepi\AppData\Local\Programs\DockerDesktop\resources\bin;c:\Users\Deepi\.vscode\extensions\vscjava.vscode-java-debug-0.59.0\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.0.1+8-LTS-27"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="testInvalidLogin" classname="com.abinesh.qa.tests.FacebookLoginTest" time="4.781">
+    <system-out><![CDATA[
+======================================
+Starting browser: chrome
+======================================
+Chrome browser opened.
+Navigated to Facebook.
+Page title: Facebook
+Current URL: https://www.facebook.com/
+
+Starting Test: Invalid Login
+No cookie banner displayed.
+Normal click intercepted. Using JavaScript click...
+Login button clicked.
+Test Passed: Invalid login rejected.
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="testEmptyFields" classname="com.abinesh.qa.tests.FacebookLoginTest" time="4.37">
+    <system-out><![CDATA[Browser closed.
+
+======================================
+Starting browser: chrome
+======================================
+Chrome browser opened.
+Navigated to Facebook.
+Page title: Facebook
+Current URL: https://www.facebook.com/
+
+Starting Test: Empty Fields Login
+No cookie banner displayed.
+Normal click intercepted. Using JavaScript click...
+Login button clicked.
+Test Passed: Empty fields rejected.
+]]></system-out>
+  </testcase>
+  <testcase name="testValidFormatFakeAccount" classname="com.abinesh.qa.tests.FacebookLoginTest" time="4.743">
+    <system-out><![CDATA[Browser closed.
+
+======================================
+Starting browser: chrome
+======================================
+Chrome browser opened.
+Navigated to Facebook.
+Page title: Facebook
+Current URL: https://www.facebook.com/
+
+Starting Test: Valid Format Fake Account
+No cookie banner displayed.
+Normal click intercepted. Using JavaScript click...
+Login button clicked.
+Test Passed: Fake account rejected.
+]]></system-out>
+  </testcase>
+</testsuite>
